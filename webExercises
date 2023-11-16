@@ -1,0 +1,24 @@
+- What is HTTP?
+    Hypertext Transfer Protocol. Application protocol used for transmitting data. 
+- What is a URL?
+    Uniform Resource Locator, is a web address that specifies the location of a resource on the internet. It typically consists of a protocol (e.g., http or https), a domain name, and a path to the specific resource.
+- What is DNS?
+    Domain Name System, is a system that translates human-readable domain names into IP addresses
+- What is a query string?
+    Part of a URL that contains data to be passed to web servers as key-value pairs. It usually follows the question mark in a URL and is used for parameters in HTTP GET requests.
+- What are two HTTP verbs and how are they different?
+    GET and POST. GET is used to request data from a server, while POST is used to submit data to a server.
+- What is an HTTP request?
+    A message sent by a client to request a specific action from a server.
+- What is an HTTP response?
+    A message sent by a server to fulfill a client request. 
+- What is an HTTP header? Give a couple examples of request and response headers you have seen.
+    HTTP headers provide information about the request or response Examples include:
+        - Request headers: User-Agent (provides information about the user agent initiating the request), Accept-Language (indicates the preferred language of the client).
+        - Response headers: Content-Type (indicates the media type of the resource), Server (provides information about the software used by the origin server).
+- What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+    1. DNS Resolution: Translate the domain name into an IP address using DNS.
+    2. TCP Connection: Establish a TCP connection to the server at the resolved IP address.
+    3. HTTP Request: Send an HTTP GET request to the server for the specified resource.
+    4. Server Processing: The server processes the request and sends back an HTTP response.
+    5. Rendering: The browser receives the response, interprets the HTML, and renders the page for the user.
